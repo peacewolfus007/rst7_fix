@@ -1,6 +1,7 @@
 #tried this command (min1. in downloaded from here: https://ambermd.org/tutorials/basic/tutorial3/files/min1.in) :
 #sander -O -i min1.in -o min1.out -p a.prmtop -c text.txt -r min1.ncrst
 #text.txt is fixed of a.rst7 file
+#wrote by Barış KURT
 
 
 testsite_array = []
