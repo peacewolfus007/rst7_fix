@@ -1,3 +1,4 @@
+#tried this command (min1. in downloaded from here: https://ambermd.org/tutorials/basic/tutorial3/files/min1.in) :
 #sander -O -i min1.in -o min1.out -p a.prmtop -c text.txt -r min1.ncrst
 #text.txt is fixed of a.rst7 file
 
@@ -17,9 +18,9 @@ def replace_char_at_index(org_str, index, replacement):
 
 sample_str = "This is a sample string"
 # Replace character at 3rd index position
-sample_str = replace_char_at_index(sample_str, 13, 'sss')
-print(sample_str)
-print(testsite_array[5155])
+#sample_str = replace_char_at_index(sample_str, 13, 'sss')
+#print(sample_str)
+print(f"\n before text :\n{testsite_array[5155]}")
 for x in range(5149,5178,1):
     
     testsite_array[x]=replace_char_at_index(testsite_array[x], 12, ' ')
@@ -28,7 +29,7 @@ for x in range(5149,5178,1):
     testsite_array[x]=replace_char_at_index(testsite_array[x], 60, ' ')
     #testsite_array[x]=replace_char_at_index(testsite_array[x], 56, '')
     #testsite_array[x]=replace_char_at_index(testsite_array[x], 65, '   ')
-print(testsite_array[5155])
+print(f"\n after text:\n{testsite_array[5155]}")
 
 
 
