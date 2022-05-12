@@ -21,7 +21,7 @@ sample_str = "This is a sample string"
 #sample_str = replace_char_at_index(sample_str, 13, 'sss')
 #print(sample_str)
 print(f"\n before text :\n{testsite_array[5155]}")
-for x in range(5149,5178,1):
+for x in range(571,5181,1):
     
     testsite_array[x]=replace_char_at_index(testsite_array[x], 12, ' ')
     testsite_array[x]=replace_char_at_index(testsite_array[x], 23, ' ')
