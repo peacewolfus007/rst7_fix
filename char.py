@@ -1,3 +1,7 @@
+#sander -O -i min1.in -o min1.out -p a.prmtop -c text.txt -r min1.ncrst
+#text.txt is fixed of a.rst7 file
+
+
 testsite_array = []
 with open('a.rst7') as my_file:
     for line in my_file:
@@ -15,13 +19,16 @@ sample_str = "This is a sample string"
 # Replace character at 3rd index position
 sample_str = replace_char_at_index(sample_str, 13, 'sss')
 print(sample_str)
-
-for x in range(len(testsite_array)):
-    testsite_array[x]=replace_char_at_index(testsite_array[x], 13, '   ')
-    testsite_array[x]=replace_char_at_index(testsite_array[x], 26, '   ')
-    testsite_array[x]=replace_char_at_index(testsite_array[x], 64, '   ')
+print(testsite_array[5155])
+for x in range(5149,5178,1):
+    
+    testsite_array[x]=replace_char_at_index(testsite_array[x], 12, ' ')
+    testsite_array[x]=replace_char_at_index(testsite_array[x], 23, ' ')
+    testsite_array[x]=replace_char_at_index(testsite_array[x], 36, ' ')
+    testsite_array[x]=replace_char_at_index(testsite_array[x], 60, ' ')
     #testsite_array[x]=replace_char_at_index(testsite_array[x], 56, '')
     #testsite_array[x]=replace_char_at_index(testsite_array[x], 65, '   ')
+print(testsite_array[5155])
 
 
 
